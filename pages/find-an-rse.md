@@ -14,7 +14,7 @@ not_editable: true
 <ul id="search-results"></ul>
 
 <script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
-<script src="/community-template/assets/vendor/jquery/jquery.min.js" ></script>
+<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js" ></script>
 <script>
 (function() {
   window.data = {}
