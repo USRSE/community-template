@@ -42,7 +42,6 @@ and descriptors;
 
 ```yaml
 ---
-layout: person
 name: Antonio T. Rex
 title: Research Software Engineer
 url: https://douglascuddletoy.com/shop/fantasy-whimsy/t-rex-s-dinosaur-w-sound/
