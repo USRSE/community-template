@@ -18,10 +18,13 @@ The site offers the following features:
 Additionally, all repositories in the usrse GitHub organization that begin with "community" serve
 a json data structure that is used to search across the sites from a common page.
 This means that any user can visit this page, and get directed to support at your institution.
-**under development**
 
 ## Creating your Community
 
+You can create your repository from the [template here](https://github.com/USRSE/community-template/generate).
+In order for it to show up in the USRSE "Find an RSE" search, you need to have
+the template hosted at the [usrse](https://www.github.com/usrse/) GitHub organization,
+so it's suggested that you become a member first.
 
 ### 1. About your Group
 
