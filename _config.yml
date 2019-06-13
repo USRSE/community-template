@@ -6,6 +6,7 @@ baseurl: "/community-template"
 
 # Community Name: (should start with US-RSE <name>
 title: US-RSE Community
+institution: Dinosaur University
 
 # Description: Short description of your site
 description: Community of Research Software Engineers
@@ -63,6 +64,8 @@ markdown:          kramdown
 comments: true
 paginate:          5
 paginate_path: "/posts/page:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag

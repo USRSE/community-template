@@ -62,10 +62,10 @@ excluded_in_search: true
 	function displaySearchResults(results, query) {
 		var searchResultsEl = document.getElementById("search-results"),
 			searchProcessEl = document.getElementById("search-process");
-
-		if (results.length) {
+                if (results.length) {
 			var resultsHTML = "";
 			results.forEach(function (result) {
+                                console.log(result.ref)
 				var item = window.data[result.ref],
 					contentPreview = getPreview(query, item.content, 170),
 					titlePreview = getPreview(query, item.title);

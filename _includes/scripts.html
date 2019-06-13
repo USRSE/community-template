@@ -1,4 +1,4 @@
-<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js" ></script>
+{% if page.url contains 'find-an-rse' %}{% else %}<script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js" ></script>{% endif %}
 <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" | relative_url }}"></script>
 
