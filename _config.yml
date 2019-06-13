@@ -12,7 +12,9 @@ description: Community of Research Software Engineers
 author: USRSE
 
 # Social Profiles
-# twitter_username:  usrse
+
+# Uncomment twitter to have a feed in the right sidebar of latest tweets
+# twitter:  vsoch
 github_username:  usrse
 
 
@@ -35,6 +37,13 @@ defaults:
         values:
             layout: post
             comments: true
+
+# Collections
+collections:
+  people:
+    permalink: /people/:name/
+    layout: "person"
+    output: true
 
 # Navigation
 navbar-links:

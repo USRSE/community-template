@@ -10,7 +10,7 @@ layout: default
     {% endif %}
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-10 mx-auto">
+        <div class="col-lg-12 col-md-10 {% if site.twitter %}{% else %}mx-auto{% endif %}">
           <div class="page-heading">
              <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.png">-->
           </div>
@@ -21,15 +21,17 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
+      <div class="col-lg-8 col-md-10 {% if site.twitter %}{% else %}mx-auto{% endif %}">
            <div class="main-explain-area jumbotron">
             {{ content }}
             <div class="get-started-wrap">
               <a class="btn btn-primary get-started-btn" href="{{ site.baseurl }}/people">People</a>
+              <a class="btn btn-primary get-started-btn" href="{{ site.baseurl }}/search">Find an RSE</a>
            </div>
         </div>
+       </div>
 
+      <div class="col-lg-8 col-md-10 {% if site.twitter %}{% else %}mx-auto{% endif %}">
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 5 %}
@@ -61,7 +63,9 @@ layout: default
         <div class="clearfix" style="padding-top:30px; padding-bottom:30px;">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
-
       </div>
+{% if site.twitter %}<div class="col-lg-4 col-md-10" style="max-height:1560px; overflow:scroll">
+        {% include twitter.html %}
+      </div>{% endif %}
     </div>
   </div>

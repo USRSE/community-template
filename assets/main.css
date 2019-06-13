@@ -23,11 +23,16 @@ a {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
-  a:focus, a:hover {
+  a button:focus, a button:hover {
     color: white; }
 
 .fas:focus, .fas:hover {
   color: #212529 !important;
+}
+
+.social-icon {
+   padding-left: 5px;
+   padding-right: 5px;
 }
 
 blockquote {
