@@ -3,7 +3,7 @@ name: Antonio T. Rex
 title: Research Software Engineer
 external_url: https://douglascuddletoy.com/shop/fantasy-whimsy/t-rex-s-dinosaur-w-sound/
 image: rex.jpg
-github: usrse
+github: rseng
 twitter: dinosaur
 ---
 

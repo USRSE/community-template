@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the USRSE Community
-description: About the USRSE Community
+title: About the RSE Community
+description: About the RSE Community
 permalink: /about/
 ---
 

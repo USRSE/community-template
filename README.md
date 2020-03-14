@@ -1,11 +1,10 @@
-# U.S. Research Software Community Template
+# Research Software Engineer Community Template
 
-This is a community template for a USRSE group. It is provided for you
-to copy to the [usrse GitHub](https://www.github.com/usrse) and then
-have a portal for your center.
+This is a community template for a research software engineer group. It is provided for you
+to copy to your GitHub organization to then have a portal for your center.
 
  - [How Does it Work?](#how-does-it-work) or specifically, what features does the page offer?
- - [Creating Your Community](#creating-your-community) comes down to creating a clone of the respository in the [usrse](https://www.github.com/usrse) GitHub organization.
+ - [Creating Your Community](#creating-your-community) comes down to creating a clone of the respository in the [rseng](https://www.github.com/rseng) GitHub organization.
 
 ## How does it work?
 
@@ -15,16 +14,9 @@ The site offers the following features:
  - An optional Twitter feed if your group shares an alias.
  - Individual pages for your site members. Each individual can share a biography and areas of expertise to better offer support to users.
 
-Additionally, all repositories in the usrse GitHub organization that begin with "community" serve
-a json data structure that is used to search across the sites from a common page.
-This means that any user can visit this page, and get directed to support at your institution.
-
 ## Creating your Community
 
-You can create your repository from the [template here](https://github.com/USRSE/community-template/generate).
-In order for it to show up in the USRSE "Find an RSE" search, you need to have
-the template hosted at the [usrse](https://www.github.com/usrse/) GitHub organization,
-so it's suggested that you become a member first.
+You can create your repository from the [template here](https://github.com/rseng/community-template/generate).
 
 ### 1. About your Group
 
@@ -49,7 +41,7 @@ name: Antonio T. Rex
 title: Research Software Engineer
 url: https://douglascuddletoy.com/shop/fantasy-whimsy/t-rex-s-dinosaur-w-sound/
 image: rex.jpg
-github: usrse
+github: rseng
 twitter: dinosaur
 ---
 ```
@@ -64,10 +56,9 @@ searchable for users to find support for areas of interest.
 
 If you want to use your community space to write articles or post news, you can
 do so by adding a new markdown file to the [_posts](_posts) folder. We've left
-a few entries there for you as examples. If you then want your post feed to
-automatically appear on the [https://us-rse.org/blog](https://us-rse.org/blog)
-site, your feed is located at the baseurl + `feed.xml`. So for this template, it
-would be at https://localhost:4000/community-template/feed.xml.
+a few entries there for you as examples. If you want to add your community
+site to any feed syndication that supports xml, there is a feed of posts
+exposed at https://localhost:4000/community-template/feed.xml.
 
 ### 5. Social Media
 

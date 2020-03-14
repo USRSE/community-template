@@ -5,12 +5,12 @@
 baseurl: "/community-template"
 
 # Community Name: (should start with US-RSE <name>
-title: US-RSE Community
+title: RSE Community
 institution: Dinosaur University
 
 # Description: Short description of your site
 description: Community of Research Software Engineers
-author: USRSE
+author: vsoch
 
 # Email: uncomment to include a link to a Formsee contact form
 # email: me@institution.edu
@@ -19,7 +19,7 @@ author: USRSE
 
 # Uncomment twitter to have a feed in the right sidebar of latest tweets
 # twitter:  vsoch
-github_username:  usrse
+github_username: rseng
 
 
 # DO NOT EDIT BELOW THIS LINE ##################################################

@@ -3,7 +3,7 @@ name: Brenton Yorkie
 title: Top Dawg Manager
 external_url: https://douglascuddletoy.com/shop/animals/brenton-yorkie/
 image: brenton.jpg
-github: usrse
+github: rseng
 twitter: yorkie
 ---
 
